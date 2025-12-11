@@ -8,4 +8,12 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    server: {
+        host: '0.0.0.0',   // allow connections from Docker network
+        port: 5173,
+        cors: true,          // enable CORS headers
+        hmr: {
+            host: 'localhost',
+        },
+    },
 });
