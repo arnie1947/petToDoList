@@ -47,6 +47,11 @@ composer install
 npm install
 ```
 
+- Generate Application Key:
+```
+php artisan key:generate
+```
+
 - Create Database tables:
 ```bash
 php artisan migrate
